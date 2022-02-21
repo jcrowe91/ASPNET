@@ -38,7 +38,7 @@ namespace Testing.Controllers
             return View(prod);
         }
 
-        public IActionResult UpdateProductToDatabse(Product product)
+        public IActionResult UpdateProductToDatabase(Product product)
         {
             repo.UpdateProduct(product);
 
