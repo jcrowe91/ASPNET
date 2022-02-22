@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Testing.Models;
 
 namespace Testing
 {
@@ -10,5 +11,8 @@ namespace Testing
         public IEnumerable<Product> GetAllProducts();
         public Product GetProduct(int id);
         public void UpdateProduct(Product product);
+        public void InsertProduct(Product productToInsert);
+        public IEnumerable<Category> GetCategories();
+        public Product AssignCategory();
     }
 }
