@@ -16,6 +16,7 @@ namespace Testing
             CreateHostBuilder(args).Build().Run();
         }
 
+        //method for webBuilder startup
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>

@@ -14,6 +14,7 @@ namespace Testing.Controllers
         {
             this.repo = repo;
         }
+
         public IActionResult Index()
         {
             var products = repo.GetAllProducts();

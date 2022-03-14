@@ -10,7 +10,6 @@ namespace Testing
     {
         public Product()
         {
-
         }
 
         public int ProductID { get; set; }
